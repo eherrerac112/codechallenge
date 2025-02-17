@@ -64,6 +64,12 @@ const CreateTrack = () => {
             else if(statusError === 404){
               window.alert(error.response.data.message);
               setIsrc('');
+              document.getElementById('trackName').value = '';
+              document.getElementById('artistName').value = '';
+              document.getElementById('albumName').value = '';
+              document.getElementById('contentIndicator').value = '';
+              document.getElementById('playbackSeconds').value = '';
+              document.getElementById('trackImg').src = '';
             }
             else {
               console.error('Login failed:', error);
