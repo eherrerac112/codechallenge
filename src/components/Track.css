@@ -1,0 +1,35 @@
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    min-height: 950px;
+    min-width: 800px;
+    border-radius: 20%;
+  }
+
+.form-nav {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.iscrform {
+    min-width: 375px;
+    width: 50%;
+}
+
+.form-submit {
+    margin-bottom: 15px;
+}
+
+.form-question {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+  }
+
+.form-img-container {
+    margin-top: 15px;
+    min-width: 100%;
+    min-height: 23em;
+    padding: 0em;
+}

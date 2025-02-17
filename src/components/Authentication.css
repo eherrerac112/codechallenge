@@ -1,0 +1,71 @@
+.form-container {
+    display: flex;
+    align-items: center; 
+    min-height: 600px;
+    min-width: 400px;
+    border-radius: 20%;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    min-height: 180px;
+    min-width: 600px;
+    flex-flow: column wrap;
+    padding: 0 20px;
+  }
+  
+  .form-questions {
+    display: flex;
+    flex-flow: column wrap;
+    min-width: 300px;
+    margin-top: 15px;
+  }
+  
+  .form-question {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+  }
+  
+  .form-button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .form-container {
+  display: flex;
+  align-items: center; 
+  min-height: 600px;
+  min-width: 400px;
+  border-radius: 20%;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  min-height: 180px;
+  min-width: 600px;
+  flex-flow: column wrap;
+  padding: 0 20px;
+}
+
+.form-questions {
+  display: flex;
+  flex-flow: column wrap;
+  min-width: 300px;
+  margin-top: 15px;
+}
+
+.form-question {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.form-button-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
